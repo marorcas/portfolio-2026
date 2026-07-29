@@ -48,6 +48,7 @@ This project uses [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) princ
 
 ## [2026-07-29]
 - Created journal page
+- Upgraded Astro from v6.1.5 to v7.1.5
 
 ---
 
