@@ -55,7 +55,7 @@ a {
   text-decoration: underline;
   text-underline-offset: 4px;
   transition: color 0.15s;
-  margin: 0 0.25rem;
+  margin: .25rem;
 }
 
 a:hover {
