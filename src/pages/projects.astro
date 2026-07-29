@@ -7,14 +7,14 @@ import { projects } from "../data/projects";
     <h1>GET /projects</h1>
     <p class="page-subtitle">200 OK · {projects.length} entries</p>
   </div>
-  <section class="projects">
+  <section class="items">
     {projects.map((project) => (
-      <div class="project">
-        <div class="project-header">
+      <div class="item">
+        <div class="item-header">
           <span class="project-id">[{project.id}]</span>
-          <h2 class="project-title">{project.title}</h2>
+          <h2 class="item-title">{project.title}</h2>
         </div>
-        <p class="project-meta">Description: {project.description}</p>
+        <p class="item-meta">Description: {project.description}</p>
         <div class="project-stack">
           <p>Stack: </p>
           {project.stack.map((item) => (
