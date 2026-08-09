@@ -52,6 +52,11 @@ This project uses [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) princ
 
 ---
 
+## [2026-08-09] 
+- Reversed the order of the projects list and journal entries list so that the most recent item is at the top of the page
+
+---
+
 ## [YYYY-MM-DD] - Update Title
 - Description of what changed
 - Description of new features or fixes
