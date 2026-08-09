@@ -8,7 +8,7 @@ import { journalEntries } from "../data/journal-entries";
     <p class="page-subtitle">200 OK · {journalEntries.length} entries</p>
   </div>
   <section class="items">
-    {journalEntries.map((entry) => (
+    {journalEntries.reverse().map((entry) => (
       <div class="item">
         <div class="item-header">
           <span class="entry-date">[{entry.date}]</span>

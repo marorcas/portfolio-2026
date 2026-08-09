@@ -8,7 +8,7 @@ import { projects } from "../data/projects";
     <p class="page-subtitle">200 OK · {projects.length} entries</p>
   </div>
   <section class="items">
-    {projects.map((project) => (
+    {projects.reverse().map((project) => (
       <div class="item">
         <div class="item-header">
           <span class="project-id">[{project.id}]</span>
