@@ -6,5 +6,9 @@ export const journalEntries = [
   {
     date: "2026-08-09",
     content: "I learned about fluentbit-gke, a logging workload for Google Kubernetes Engine that collects logs from containers that run on a node and then sends them to logging system, for example Google Cloud Logging. Fluentbit-gke is what's called a DaemonSet, which is a controller that instructs Kubernetes to run a copy of a pod for its workload on every available node in a cluster. A controller is an object in Kubernetes that manaages a desired state of a workload. Other examples of controllers are Deployments, which manage the number of copies (replicas) of a workload."
+  },
+  {
+    date:"2026-08-19",
+    content: "A sidecar is a container that runs in the same pod as another container. It is a support container to this other container (which is the main container)."
   }
 ];
