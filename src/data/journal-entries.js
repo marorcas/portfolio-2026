@@ -10,5 +10,9 @@ export const journalEntries = [
   {
     date:"2026-08-19",
     content: "A sidecar is a container that runs in the same pod as another container. It is a support container to this other container (which is the main container)."
+  },
+  {
+    date: "2026-08-21",
+    content: "Telemetry refers to data that is generated from an app or system to understand how its behaviour and health. There are 3 main types of telemetry: metrics, logs and traces. Metrics are numerical data over time, for example resource usage. Logs describe events that happen in the system or app. Traces show how traffic moves within the system or app."
   }
 ];
